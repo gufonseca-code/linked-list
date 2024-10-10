@@ -4,7 +4,7 @@ import java.util.Vector;
 
 public class App {
     public static Vector<Integer> toVector(LinkedList<Integer> linkedList) {
-        Iterator<Integer> iterator = linkedList.descendingIterator();
+        Iterator<Integer> iterator = linkedList.iterator();
         Vector<Integer> vector = new Vector<>();
         
         while (iterator.hasNext()) {
